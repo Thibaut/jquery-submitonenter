@@ -8,8 +8,6 @@
  * http://www.opensource.org/licenses/mit-license.php
  */
 
-/*jshint strict:true, boss:true, browser:true, jquery:true */
-
 (function($) {
   'use strict';
 
