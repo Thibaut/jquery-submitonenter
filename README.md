@@ -5,17 +5,13 @@ A jQuery plugin to submit forms on enter.
 ## Usage
 
 ```javascript
-jQueryObject.submitOnEnter();
-jQueryObject.submitOnEnter(selector);
+.submitOnEnter();
+.submitOnEnter(selector);
 ```
 
-If selector is omitted or is null, binds directly.
+If selector is omitted or null, binds directly, otherwise uses delegated events.
 
-When a selector is provided, uses delegated events.
-
-Will submit either `jQueryObject` or the closest form.
-
-Examples:
+Will submit either the selected element if it's a form, or the closest form.
 
 ```javascript
 $('form').submitOnEnter(); // Direct method
