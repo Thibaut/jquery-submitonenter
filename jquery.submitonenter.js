@@ -21,7 +21,9 @@
         (event.currentTarget.nodeName === 'FORM') ?
           $(event.currentTarget) :
           $(event.currentTarget).closest('form')
-      ).submit();
+      ).not(':has(input[type=submit]:disabled)')
+       .not(':has(button[type=submit]:disabled)')
+       .submit();
     }
   }
 
