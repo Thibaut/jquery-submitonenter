@@ -1,5 +1,5 @@
 /*
- * jquery.submitOnEnter v1.0.1
+ * jquery.submitOnEnter v1.0.2
  *
  * Copyright (c) 2012 Thibaut Courouble
  * http://thibaut.me
