@@ -28,6 +28,6 @@
   }
 
   $.fn.submitOnEnter = function(selector) {
-    return this.off('.submitOnEnter').on('keydown.submitOnEnter', selector, submitOnEnter);
+    return this.off('.submitOnEnter').on('keypress.submitOnEnter', selector, submitOnEnter);
   };
 })(jQuery);
